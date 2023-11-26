@@ -1,0 +1,650 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+html body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 97px;
+  width: 1520px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 97px;
+  width: 1220px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 450;
+}
+.navbar ul li a:hover {
+  color: rgb(174, 166, 166);
+}
+.link {
+  display: flex;
+  padding-left: 580px;
+  gap: 20px;
+}
+.main {
+  display: flex;
+  height: 1500px;
+  width: 1520px;
+}
+.main .data {
+  height: 1400px;
+  width: 960px;
+  margin: 0px 280px;
+  margin-top: 65px;
+  padding: 15px 0px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .data .h1 {
+  display: flex;
+  height: 72px;
+}
+.main .data .h1 h1 {
+  font-weight: 450;
+  margin-left: 50px;
+  font-size: 48px;
+}
+.main .data .h1 a {
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.main .data img {
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 30px;
+  height: 35px;
+  width: 112px;
+}
+.main .data .info {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.main .data .info p {
+  padding-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+.main .data .btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+  margin-top: 70px;
+}
+.main .data .btn button {
+  width: 292px;
+  color: white;
+  font-weight: 640;
+  border: none;
+  border-radius: 6px;
+  background-color: #00b6d1;
+  font-size: 14px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+.main .data .btn button:hover {
+  background-color: #05a0b8;
+}
+.main .data .copy {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  margin-top: 70px;
+}
+.main .data .copy img {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.main .data .copy p {
+  font-size: 22px;
+}
+.main .data .copy span {
+  font-size: 13.2px;
+}
+.main .data .language {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  height: 231px;
+  width: 960px;
+}
+.main .data .language .box1 {
+  display: flex;
+  height: 192px;
+  width: 280px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box1 #down {
+  display: inline;
+}
+.main .data .language .box1 #down span {
+  display: flex;
+  padding-left: 95px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box1 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.main .data .language .box2 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box2 #down {
+  display: inline;
+}
+.main .data .language .box2 #down span {
+  display: flex;
+  padding-left: 95px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box2 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  cursor: pointer;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box3 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box3 #down {
+  display: inline;
+}
+.main .data .language .box3 #down span {
+  display: flex;
+  padding-left: 95px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box3 #down button {
+  height: 36px;
+  width: 130px;
+  cursor: pointer;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box4 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box4 #down {
+  display: inline;
+}
+.main .data .language .box4 #down span {
+  display: flex;
+  padding-left: 95px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box4 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  cursor: pointer;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box5 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box5 #down {
+  display: inline;
+}
+.main .data .language .box5 #down span {
+  display: flex;
+  padding-left: 95px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box5 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box6 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box6 #down {
+  display: inline;
+}
+.main .data .language .box6 #down span {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box6 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box7 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box7 #down {
+  display: inline;
+}
+.main .data .language .box7 #down span {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box7 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box8 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box8 #down {
+  display: inline;
+}
+.main .data .language .box8 #down span {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box8 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box9 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box9 #down {
+  display: inline;
+}
+.main .data .language .box9 #down span {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box9 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  cursor: pointer;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box10 {
+  display: flex;
+  height: 192px;
+  width: 278px;
+  background-color: #f9f9f9;
+}
+.main .data .language .box10 #down {
+  display: inline;
+}
+.main .data .language .box10 #down span {
+  display: flex;
+  padding-left: 120px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .data .language .box10 #down button {
+  height: 36px;
+  width: 130px;
+  border: none;
+  background-color: #00b6d1;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 8px 15px;
+}
+.main .data .language .box1 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box2 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box3 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box4 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box5 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box6 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box7 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box8 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box9 #down button:hover {
+  background-color: #05a0b8;
+}
+.main .data .language .box10 #down button:hover {
+  background-color: #05a0b8;
+}
+.footer {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: #f9f9f9;
+  font-size: small;
+}
+.footer .logo {
+  margin: 30px 0px 0px 280px;
+  cursor: pointer;
+}
+.footer .links {
+  cursor: pointer;
+  display: flex;
+  margin-left: 500px;
+  margin-top: 50px;
+  gap: 16px;
+  font-size: 24px;
+}
+.main .data .language #down #boot {
+  background-color: rgb(76, 208, 76);
+  transition: all ease-in-out;
+}
+.main .data .language #down #boot:hover {
+  background-color: rgb(90, 186, 90);
+}
+.main .data .language #down #lan {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: "Lucida Sans";
+  padding-left: 110px;
+}
+.main .data .language .box6 #down #lan {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: "Lucida Sans";
+  padding-left: 80px;
+}
+.main .data .language .box9 #down #lan {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: "Lucida Sans";
+  padding-left: 120px;
+}
+.main .data .language .box10 #down #lan {
+  font-size: small;
+  font-weight: 500;
+  padding-top: 5px;
+  font-family: "Lucida Sans";
+  padding-left: 90px;
+}
+.sing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 742px;
+  width: 100%;
+  background-color: #222222;
+}
+.sing .subscribe {
+  display: inline;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 388px;
+  width: 960px;
+}
+.sing .subscribe #info {
+  margin-top: 160px;
+  margin-left: 30px;
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
+}
+.sing .sub {
+  display: flex;
+  height: 265px;
+  width: 345px;
+  background-color: #ffffff;
+  margin-left: 600px;
+  margin-top: -190px;
+  border-radius: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+.sing .sub h3 {
+  text-align: center;
+  font-size: 24px;
+}
+.sing .sub label {
+  text-align: center;
+  font-size: 14.4px;
+}
+.sing .sub input {
+  margin-left: 30px;
+  width: 275px;
+  height: 50px;
+  border: 0.00001px solid #00b6d1;
+  background-color: #ffffff;
+}
+.sing .sub button {
+  margin-left: 30px;
+  width: 275px;
+  height: 50px;
+  background-color: #00b6d1;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sing .sub button:hover {
+  background-color: #05a0b8;
+}
+.sing .footb {
+  height: 258px;
+  width: 960px;
+}
+.sing .footb span {
+  cursor: pointer;
+  color: #00b6d1;
+}
+.fbottom{
+    height: 470px;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fbottom .dt{
+    display: flex;
+    align-items: center;
+    height: 370px;
+    width: 960px;
+}
+.fbottom .dt span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fbottom .dt p{
+    font-size: 14px;
+}
+.fbottom .dt .b1{
+    height: 300px;
+    width: 250px;
+   
+}
+.fbottom .dt .b2{
+    height: 300px;
+    width: 250px;
+  
+}
+.fbottom .dt .b3{
+    height: 300px;
+    width: 250px;
+   
+}
+.fbottom .dt .b4{
+    height: 300px;
+    width: 250px;
+}
+.fbottom .dt .b4 input{
+    margin-top: 7px;
+    height: 40px;
+    width: 218px;
+    display: flex;
+    padding-left: 15px;
+}
+.fbottom .dt .b4 button{
+    margin-top: 7px;
+    height: 37px;
+    width: 218px;
+    background-color: #00b6d1;
+    color:#ffffff;
+    border: none;
+    border-radius: 33px;
+    font-weight: 600;
+    font-size: 14.33px;
+}
+.fbottom .dt .b4 button:hover{
+    background-color: #05a0b8;
+}
